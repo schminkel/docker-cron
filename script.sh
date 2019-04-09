@@ -1,1 +1,2 @@
-echo "$(date): executed script" >> /var/log/cron.log 2>&1
+#!/bin/sh
+echo "### $(date): script executed!" >> /var/log/syslog
